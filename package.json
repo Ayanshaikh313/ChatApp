@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.22.3",
     "@clerk/nextjs": "^6.9.15",
     "@coreui/coreui": "^5.2.0",
     "@coreui/coreui-pro": "^5.9.0",
@@ -17,7 +18,6 @@
     "bootstrap": "^5.3.3",
     "clsx": "^2.1.1",
     "framer-motion": "^12.0.1",
-    "@clerk/clerk-react": "^5.22.3",
     "next": "15.1.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
