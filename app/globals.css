@@ -2,20 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.color{
+  background-color: rgb(0, 171, 254);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.color2{
+  background-color: rgb(113, 181, 252);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.color3{
+  background-color:rgb(0, 150,252);
+}
+
+
+.custom-calendar .today {
+  background-color: #ffeb3b; /* Highlight today's date with a yellow background */
+  border-radius: 50%; /* Make it circular */
+}
+
+.custom-calendar .selected {
+  background-color: #007bff; /* Change the background color for selected dates */
+  color: white; /* Change text color for better contrast */
+}
+
+.custom-calendar .selected:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.custom-calendar .calendar-day {
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.custom-calendar .calendar-day:hover {
+  background-color: rgba(0, 123, 255, 0.2); /* Light blue on hover */
 }
